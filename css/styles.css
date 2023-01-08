@@ -85,3 +85,30 @@ h3 {
   color: var(--branding-color);
   background: #fff;
 }
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 100px 10px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .hero h3 {
+    font-size: 18px;
+  }
+
+  .project-intro {
+    margin: 0px 10px;
+    text-align: center;
+  }
+
+  .project-intro h2 {
+    font-size: 40px;
+  }
+}
