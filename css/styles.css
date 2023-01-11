@@ -76,12 +76,17 @@ h3 {
 }
 
 .about-header p {
+  font-size: 16px;
   opacity: 0.7;
   margin-bottom: 48px;
 }
 
 .about-header img {
   border-radius: 15px;
+}
+
+.about-header-copy {
+  margin: 30px 50px;
 }
 
 .btn-outline {
@@ -134,5 +139,22 @@ h3 {
 
   .project-intro h2 {
     font-size: 40px;
+  }
+
+  .about-header {
+    text-align: center;
+    padding: 100px 10px;
+  }
+
+  .about-header h1 {
+    font-size: 37px;
+  }
+
+  .about-header a {
+    margin-bottom: 40px;
+  }
+
+  .about-header-copy {
+    margin: 10px;
   }
 }
