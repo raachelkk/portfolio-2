@@ -61,7 +61,7 @@ h3 {
 }
 
 .content-container {
-  padding: 200px 20px;
+  padding: 200px 20px 0;
 }
 
 .content-container h1 {
@@ -95,6 +95,21 @@ h3 {
   padding: 18px 25px;
   color: var(--branding-color);
   font-size: 16px;
+}
+
+.project-tiles-container {
+  max-width: 1160px;
+  padding: 0 20px;
+}
+
+.project-tiles-container h3 {
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+}
+
+.project-tiles-container p {
+  font-size: 14px;
 }
 
 .btn-outline:hover {
@@ -141,20 +156,20 @@ h3 {
     font-size: 40px;
   }
 
-  .about-header {
+  .content-container {
     text-align: center;
     padding: 100px 10px;
   }
 
-  .about-header h1 {
+  .content-container h1 {
     font-size: 37px;
   }
 
-  .about-header a {
+  .content-container a {
     margin-bottom: 40px;
   }
 
-  .about-header-copy {
+  .content {
     margin: 10px;
   }
 }
