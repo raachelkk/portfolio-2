@@ -18,6 +18,39 @@ p {
   font-family: var(--secondary-font);
 }
 
+nav {
+  padding: 15px;
+}
+
+nav img {
+  max-height: 42px;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  line-height: 43px;
+  margin-left: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  opacity: 70%;
+  font-family: var(--secondary-font);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--branding-color);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
 .hero {
   background: var(--background-color);
   text-align: center;
@@ -130,6 +163,10 @@ h3 {
 }
 
 @media (max-width: 900px) {
+  nav li {
+    margin-left: 10px;
+  }
+
   .hero {
     padding: 100px 10px;
   }
