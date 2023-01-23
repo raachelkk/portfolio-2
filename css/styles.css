@@ -1,7 +1,7 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #272142;
-  --background-color: #f9f7fe;
+  --branding-color: #85b79d;
+  --secondary-color: #16302b;
+  --background-color: #f7fff9;
   --heading-font: "Playfair Display", serif;
   --secondary-font: "Poppins", sans-serif;
 }
@@ -55,7 +55,13 @@ nav ul {
 }
 
 .hero {
-  background: var(--background-color);
+  background: rgb(191, 255, 222);
+  background: linear-gradient(
+    63deg,
+    rgba(191, 255, 222, 1) 0%,
+    rgba(255, 224, 194, 1) 81%
+  );
+
   text-align: center;
   padding: 150px 20px;
 }
