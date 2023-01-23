@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rachel Komori's Portfolio</title>
+    <meta
+      name="description"
+      content="Let's get in touch! I am currently available for work. "
+    />
+    <title>Rachel Komori | Contact Me</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -31,22 +35,106 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="/images/logo.png"
+            alt="SheCodes Logo"
+            class="d-none d-md-block"
+          />
+          <img
+            src="/images/logo-small.jpg"
+            alt="SheCodes Logo"
+            class="d-block d-md-none"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Rachel"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Rachel's Projects">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" class="active" title="Contact Rachel"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
         <p>
-          <a href="mailto:rachel.komori5@gmail.com">rachel.komori5@gmail.com</a>
+          <a href="mailto:rachel.komori5@gmail.com" title="Email Rachel"
+            >rachel.komori5@gmail.com</a
+          >
         </p>
         <h3>LinkedIn</h3>
-        <p><a href="#" target="_blank">Rachel Komori</a></p>
+        <p>
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            title="Rachel's LinkedIn"
+            >Rachel Komori</a
+          >
+        </p>
         <h3>Instagram</h3>
         <p>
-          <a href="https://instagram.com/raachelkommori" target="_blank"
+          <a
+            href="https://instagram.com/raachelkommori"
+            target="_blank"
+            title="Rachel's Instagram"
             >@raachelkommori</a
           >
         </p>
       </div>
+      <footer class="mt-5">
+        <div class="work-inquiry justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p>Let's work together</p>
+          </div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding"
+            title="Contact Rachel"
+            >Let's chat</a
+          >
+        </div>
+        <a
+          href="mailto:rachel@gmail.com"
+          class="d-flex justify-content-center mb-5 email-link"
+          >rachel@gmail.com</a
+        >
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            title="Rachel's instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            title="Rachel's LinkedIn"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com" target="_blank" title="Rachel's GitHub"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <p class="text-center mb-5">
+          ⌨️ This portfolio was coded by Rachel Komori and is
+          <a href="https://github.com">open-sourced</a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>
