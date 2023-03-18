@@ -21,6 +21,16 @@ p {
   font-family: var(--secondary-font);
 }
 
+p .info-link {
+  text-decoration: none;
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
+p .info-link:hover {
+  color: var(--secondary-color);
+}
+
 nav {
   padding: 15px;
 }
